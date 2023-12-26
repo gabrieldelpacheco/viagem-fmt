@@ -1,0 +1,27 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img {
+    width: 64px;
+}
+
+#navbar_menu {
+    display: flex;
+}
+
+.navbar_menu--li {
+    list-style: none;
+    padding-left: .6rem;
+}
+
+.navbar_menu--a {
+    text-decoration: none;
+}
+
+.navbar_menu--a:hover {
+    text-decoration: underline;
+    color: blue;
+}
