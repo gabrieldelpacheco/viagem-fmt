@@ -1,0 +1,8 @@
+#questions {
+    display: flex;
+    justify-content: center;
+}
+
+#formulario {
+    display: flex;
+}
