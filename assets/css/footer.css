@@ -1,0 +1,40 @@
+#rodape {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    background-color: beige;
+    /* Estilos para o rodapé */
+    padding: 10px;
+    text-align: center;
+    /* A posição não é fixa, o rodapé seguirá o fluxo da página */
+    position: relative;
+    /* Adicionando margem superior para separar o rodapé do conteúdo principal */
+    margin-top: 20px;
+}
+
+/* #lista_redesocial {
+    display: flex;
+    flex-direction: column;
+} */
+
+.rede_social {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+}
+
+.rede_social--img {
+    width: 16px;
+    padding-right: 5px;
+}
+
+#lista_redesocial {
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+ margin-left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
