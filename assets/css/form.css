@@ -1,8 +1,19 @@
-#questions {
-    display: flex;
-    justify-content: center;
-}
-
 #formulario {
     display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+#email {
+    margin-bottom: .5rem;
+}
+
+#questions {
+    width: 800px;
+    height: 400px;
+}
+
+#enviar {
+    margin-top: .5rem;
+    width: 70px;
 }
