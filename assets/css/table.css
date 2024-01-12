@@ -1,5 +1,28 @@
+#planos {
+    background-color: rgb(60, 201, 147);
+    padding: 2em 1em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    background-color: gray;
+}
+
+td {
+    background-color: white;
+}
+
+table, td, th {
+    border: 2px solid black;
+}
+
 #title_table {
-    text-align: center;
+    text-align: left;
+    color: white;
 }
 
 #planos {
